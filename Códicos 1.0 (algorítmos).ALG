@@ -1,11 +1,14 @@
 algoritmo "aula"
 var
       msg:caractere
+      msgI:caractere
       
 inicio
           msg <- ("Ola,mundo")
+          msg <- ("me livrei da maldiÃ§Ã£o!")
           
-         Escreval("Ola,mundo")
-         escreva("Me livrei da maldição!")
+         Escreval(msg)
+
+         Escreva("Como amo vocÃªs,", msgI)
          
 fimalgoritmo
